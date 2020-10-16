@@ -1,0 +1,113 @@
+ 	/* textarea:focus, input:focus {
+    color: green;
+	background-color: black;
+	}
+	
+
+input, select, textarea{
+    color: #000;
+ }
+ */
+ input[type="s"]:focus,textarea[type="s"]:focus
+ {
+	 color: green;
+	background-color: black;
+	text-transform:none;
+ }
+input,textarea{
+  text-transform: capitalize;  
+}
+input
+{
+	   color: black;
+	   font-size: 14px;
+}
+
+	body {
+    background: #C0C0C0; /* Цвет фона */
+    //color: #fc0; /* Цвет текста */
+	
+   }
+      TD {
+   // vertical-align: top;
+   text-align:  center;
+   
+   border: 1px solid green;
+   border-collapse: collapse;
+   }
+    .text {
+    text-align:  center;
+   }
+   table {
+    width: 100%; /* Ширина таблицы */
+    border: 1px solid green; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+	border-collapse: collapse;
+   }
+   #footer {
+    /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    width: 100%;} /* Ширина слоя */
+	body {
+    margin: 0; /* Убираем отступы */
+    height: 100%; /* Высота страницы */
+    } 
+	 #table1 {
+    width: 60%; /* Ширина таблицы */
+    border: 1px solid green; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+	border-collapse: collapse;
+   }
+   a   {
+color: green;
+ font-size: 13pt;
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+	   
+   }
+   #zag
+   {
+	 color: black;
+	 font-size: 18px;
+	 font-weight: 400;
+	   
+   }
+   #crat
+   {
+	  color: #008000;
+	 font-size: 14px;
+font-style: italic;
+line-height: 16px;	 
+   }
+   #poln
+   {
+	   color: #484343
+	   font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 24px;
+text-align: left;	 
+	   
+   }
+   #xar
+   {
+	 font-family: Verdana, Arial, Helvetica, sans-serif;   
+	  font-size: 18px;
+   }
+   ul {
+    list-style-image: url(jpg/list.png); /* Путь к изображению маркера */
+   }
+
+   img {
+    outline: 3px solid green;
+   }
+   img:hover {
+    outline: 0px solid #65994C; /* Параметры рамки */
+    border-radius: 10px; /* Радиус скругления */
+   }
+   
+   
+     a:hover {
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
