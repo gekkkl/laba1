@@ -1,0 +1,35 @@
+<form name="test" method="post" action="input1.php">
+  <p><b>Имя:</b><br>
+   <input type="text" size="40">
+  </p>
+  
+  <form name="test" method="post" action="input1.php">
+  <p><b>Email:</b><br>
+   <input type="text" size="40">
+  </p>
+  
+    <form name="test" method="post" action="input1.php">
+  <p><b>Тема:</b><br>
+   <input type="text" size="40">
+  </p>
+   <p>Текстовое поле<Br>
+   <textarea name="comment" cols="40" rows="3"></textarea></p>
+  <p><input type="submit" value="Отправить">
+   <input type="reset" value="Очистить"></p>
+
+
+
+
+
+
+
+//<style type="text/css">
+   TD {
+   // vertical-align: top;
+   text-align:  center;
+   }
+    .text {
+    text-align:  center;
+   }
+ 
+  </style>*/
